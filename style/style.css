@@ -53,6 +53,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 
+/* offer section */
 .offer-section-container{
     width: 802.9px;
     height: 806px;
@@ -103,9 +104,93 @@ margin-bottom: 48px;
 .offer-img-container{
     width: 802.9px;
     height: 500px;
+    
 }
 
 .offer-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* party-section */
+
+.party-section-container{
+    
+    max-width: 1320px;
+    height: 600px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 170px;
+    background-image: url("../assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+}
+
+.left-side-content{
+   max-width: 820px;
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 24px;
+}
+
+.left-side-content h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-left: 126px;
+}
+
+.left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 126px;
+}
+
+.left-side-content button {
+color: white;
+background-color: rgba(0,0,0,0.2);
+border: none;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-left: 158px;
+margin-top: 24px;
+}
+
+.right-side-content{
+    max-width: 460px;
+    height: 600px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.right-side-content div{
+    max-width: 349.16px;
+    max-height: 464.65px; 
+    margin-left: 49px;
+}
+
+.right-side-content img{
     width: 100%;
     height: 100%;
 }
